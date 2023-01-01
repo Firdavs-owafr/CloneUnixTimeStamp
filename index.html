@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>cloneUnixtimestamp</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<section class="container unix__timestamp">
+			<div class="block">
+				<div class="timestamp">
+					<h2>The Current Epoch Unix Timestamp</h2>
+					<h3>Enter a Timestamp</h3>
+					<input type="number" class="online__seconds" />
+					<p>
+						Supports Unix timestamps in seconds, milliseconds, microseconds and
+						nanoseconds.
+					</p>
+					<div class="btn btn1">Convert</div>
+				</div>
+				<div class="online__timestamp">
+					<h4 class="online__ms"></h4>
+					<p>Seconds since Jan 01 1970. (UTC)</p>
+					<div class="online__date"><span></span> PM</div>
+
+					<div class="copy btn">Copy</div>
+				</div>
+			</div>
+
+			<table class="table1"></table>
+		</section>
+
+		<section class="container converter">
+			<h2>Enter a Date & Time</h2>
+
+			<div class="inputs">
+				<div class="year">
+					<label for="year">Year</label>
+					<input type="number" id="year" value="00" />
+				</div>
+				<div class="month">
+					<label for="month">Month</label>
+					<input type="number" id="month" value="00" />
+				</div>
+				<div class="day">
+					<label for="day">Day</label>
+					<input type="number" id="day" value="00" />
+				</div>
+				<div class="hours">
+					<label for="hours">Hour (24 hour)</label>
+					<input type="number" id="hours" value="00" />
+				</div>
+				<div class="minutes">
+					<label for="minutes">Minutes</label>
+					<input type="number" id="minutes" value="00" />
+				</div>
+				<div class="seconds">
+					<label for="seconds">Seconds</label>
+					<input type="number" id="seconds" value="00" />
+				</div>
+			</div>
+
+			<div class="btn btn2">Convert</div>
+
+			<table class="table2"></table>
+		</section>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
